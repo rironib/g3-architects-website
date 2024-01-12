@@ -14,9 +14,9 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
-/* Header Section */
+/* Navbar Section */
 header {
-  background-color: #ff900e1a;
+  background-color: rgba(255, 144, 14, 0.1);
 }
 nav {
   display: flex;
@@ -24,11 +24,11 @@ nav {
   align-items: center;
   width: 80%;
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 2rem 0 6.5rem 0;
 }
 .logo {
   color: #131313;
-  font-size: 45px;
+  font-size: 2.75rem;
   font-weight: 700;
 }
 nav > ul {
@@ -42,4 +42,41 @@ nav li a {
   color: #424242;
   font-weight: 500;
   text-decoration: none;
+}
+
+/* Banner Section */
+#banner {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.banner-container {
+  width: 50%;
+  margin: 0 auto;
+}
+.banner-title {
+  color: #131313;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.banner-info {
+  color: #727272;
+  margin-bottom: 2rem;
+}
+.btn-banner {
+  background-color: #ff900e;
+  color: #ffffff;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 0;
+  border-radius: 0.5rem;
+}
+.banner-image {
+  width: 80%;
+  margin: 3rem auto 0;
+}
+.banner-image img {
+  width: 100%;
+  height: auto;
 }
