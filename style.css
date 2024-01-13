@@ -201,7 +201,7 @@ main {
 
 /* Facts Section */
 #facts {
-  margin-bottom: 5rem;
+  margin-bottom: 7rem;
 }
 .facts-container-title {
   color: #131313;
@@ -247,7 +247,7 @@ main {
 
 /* Sponsors Section */
 #sponsors {
-  margin-bottom: 5rem;
+  margin-bottom: 7rem;
   text-align: center;
 }
 .sponsors-ttile {
@@ -257,7 +257,7 @@ main {
   margin-bottom: 1.5rem;
 }
 .sponsors-description {
-  margin: 0 auto 2rem;
+  margin: 0 auto 3rem;
   width: 50%;
   color: #727272;
 }
@@ -269,4 +269,16 @@ main {
 .sponsors-list img {
   height: 45px;
   width: auto;
+}
+
+/* Footer Section */
+footer {
+  /* width: 80%; */
+  margin: 0 auto;
+}
+.footer-credit {
+  background-color: #fff4e7;
+  color: #424242;
+  padding: 1.5rem 0;
+  text-align: center;
 }
