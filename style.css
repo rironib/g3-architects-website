@@ -91,7 +91,7 @@ main {
 }
 
 /* Features Section */
-#features {
+#quick-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,30 +100,31 @@ main {
   margin: 0 auto;
   margin-bottom: 5rem;
 }
-.features-collage {
+.quick-list-collage {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
-.features-collage img {
+.quick-list-collage img {
   width: 280px;
   height: auto;
+  border-radius: 0.5rem;
 }
-.features-title {
+.quick-list-title {
   color: #727272;
   font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
-#features .black {
+#quick-list .black {
   color: #131313;
   font-weight: 700;
 }
-#features .orange {
+#quick-list .orange {
   color: #ff900e;
   font-weight: 700;
 }
-.features-description {
+.quick-list-description {
   color: #727272;
   margin-bottom: 2rem;
 }
